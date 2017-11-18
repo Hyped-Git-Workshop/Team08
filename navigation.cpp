@@ -1,4 +1,4 @@
-#include "navigation.h"
+include "navigation.h"
 
 #define DT 1.0
 
@@ -40,6 +40,6 @@ double Navigation::get_velocity()
 double Navigation::get_position()
 {
   /// TASK 8 (PERSON B) ////////////////////////////////////////////////////////
-  
+  this->accelerometers.push_back(a);
   /// END OF TASK 8B ///////////////////////////////////////////////////////////
 }
