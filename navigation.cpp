@@ -18,7 +18,7 @@ Navigation::~Navigation()
 void Navigation::add_accelerometer(Accelerometer *a)
 {
   /// TASK 7 (PERSON B) ////////////////////////////////////////////////////////
-  
+  this->accelerometers.push_back(a);
   /// END OF TASK 7B ///////////////////////////////////////////////////////////
 }
 
@@ -40,6 +40,6 @@ double Navigation::get_velocity()
 double Navigation::get_position()
 {
   /// TASK 8 (PERSON B) ////////////////////////////////////////////////////////
-  this->accelerometers.push_back(a);
+  
   /// END OF TASK 8B ///////////////////////////////////////////////////////////
 }
