@@ -1,4 +1,3 @@
-<<<<<<< 0e30bb0867fcf0dcf2a9c49eacd3b99e11a35c51
 OBJS = accelerometer.o pod.o bms.o navigation.o
 CC = g++
 DEBUG = -g
