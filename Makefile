@@ -5,7 +5,7 @@ CFLAGS = -std=c++11 -Wall -c -O3 $(DEBUG)
 LFLAGS = -Wall $(DEBUG)
 
 ### TASK 5 (PERSON A) #########################################################
-<<<<<<< 0e30bb0867fcf0dcf2a9c49eacd3b99e11a35c51
+
 main : main.o pod.o accelerometer.o bms.o navigation.o
 	$(CC) $(OBJS) $(LFLAGS) main.o -o main
 
