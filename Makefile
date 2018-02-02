@@ -14,9 +14,7 @@ main.o : main.cpp pod.h accelerometer.h bms.h navigation.h
 ### END OF TASK 5 (PERSON A) ##################################################
 
 pod.o : pod.cpp pod.h accelerometer.h bms.h navigation.h
-
-### END OF TASK 5 (PERSON A) ##################################################
-	$(CC) $(CFLAGS) pod.cpp
+        $(CC) $(CFLAGS) pod.cpp
 
 navigation.o : navigation.cpp navigation.h accelerometer.h
 	$(CC) $(CFLAGS) navigation.cpp
